@@ -1,8 +1,8 @@
-# abm_demo
+# Agent-Based Modelling Demo
 
 A demo of agent-based modelling using Mesa in Python.
 
-## Setup
+To begin:
 
 Run
 ```
@@ -12,6 +12,8 @@ conda activate abm_demo
 
 ## Example models
 
+Try out the visualisations of a basic model and a more complicated model (these are both based off [Mesa's money model example](https://mesa.readthedocs.io/en/main/tutorials/intro_tutorial.html)).
+
 ### Basic model
 
 Watch as `N` agents move randomly around a `width` x `height` grid.
@@ -19,6 +21,8 @@ Watch as `N` agents move randomly around a `width` x `height` grid.
 ```
 python abm_demo/examples/basic_model_visualisation.py --N 20 --width 10 --height 10
 ```
+
+![The first two iterations of a run of the basic model example](basic_model.png)
 
 ### Candy model
 
